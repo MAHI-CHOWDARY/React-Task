@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.home-card{
+    padding-top: 300px;
+    padding-bottom: 20px;
+    background-color: whitesmoke;
+}
+
+
+
+.btn-light-violet {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #b39ddb; /* light violet */
+  --bs-btn-border-color: #b39ddb;
+
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #9575cd; /* slightly darker for hover */
+  --bs-btn-hover-border-color: #9575cd;
+
+  --bs-btn-padding-x: 1rem;
+  --bs-btn-padding-y: 0.5rem;
+}
+
+.sign-in-desc{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: -16px;
+    margin-bottom: 26px;
+    opacity:0.7;
+}
+.legend{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 26px;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.custom-label {
+  position: absolute;
+  top: -0.7rem;
+  left: 1rem;
+  background:whitesmoke;
+  padding: 0 6px;
+  font-size: 14px;
+  color: #7c3aed;
+  font-weight: 500;
+  z-index: 1;
+}
+
+.custom-label.required::after {
+  content: " *";
+  color: red;
+}
+
+.custom-input {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #ced4da;
+  font-size: 15px;
+  background-color: transparent;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.custom-input:focus {
+  border-color: #7c3aed;
+  outline: none;
+  box-shadow: 0 0 0 0.15rem rgba(124, 58, 237, 0.25); /* subtle violet glow */
+}
+
+
+
+.btn-violet {
+  background-color: #7c3aed;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.btn-violet:hover {
+  background-color: #5b21b6;
+}
+
+
+.profile-wrapper {
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #7c3aed;
+}
+
+.camera-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background:#5b21b6;
+  padding: 5px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  font-size: 0.9rem;
+  color:white;
+  cursor: pointer;
+}
