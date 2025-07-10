@@ -15,7 +15,7 @@ const Account = () => {
                 <div className="col-6">
                   <div className="profile-wrapper text-left">
                     <img
-                      src="/src/assets/pic.jpg"
+                      src="/pic.jpg"
                       alt="Profile"
                       className="profile-img"
                     />
